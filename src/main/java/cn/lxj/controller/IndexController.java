@@ -19,7 +19,7 @@ public class IndexController {
 	@RequestMapping("/login")
 	public String login(String username,String password,HttpServletRequest request) {
 		System.out.println(username+": "+password);
-		request.setAttribute("ok", "登录成功！");
+		request.setAttribute("ok", "登录成功hahahah！");
 		return "index";
 	}
 }
