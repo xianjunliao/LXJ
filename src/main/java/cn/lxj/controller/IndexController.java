@@ -12,7 +12,8 @@ public class IndexController {
 
 	@RequestMapping(value="/index",method=RequestMethod.GET)
 	public String list(String p1,HttpServletRequest request) {
-		System.out.println(p1);  
+		System.out.println(p1);
+		System.out.println("aaaa");
 		return "index";
 	}
 	@RequestMapping("/login")
