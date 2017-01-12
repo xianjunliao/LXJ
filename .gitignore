@@ -5,3 +5,4 @@
 web-resources
 controller
 /target/test-classes/lxj/*.class
+/target/classes/cn/lxj/controller/IndexController.class
