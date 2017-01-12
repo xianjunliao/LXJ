@@ -232,6 +232,8 @@
         <username>admin</username>  
         <password>admin</password>  
         <server>TomcatServer</server>  
+        <path>/lxj</path>
+         <update>true</update>
     </configuration>  
     <executions>  
         <execution>  
